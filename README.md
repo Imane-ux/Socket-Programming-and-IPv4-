@@ -28,4 +28,6 @@ In order to run this code, you need to:
                         Compile the client program using: javac PacketSender.java
                         Run the client program using: java PacketSender
 
+At the client side (PacketSender terminal) you are prompted to enter a string. After entering a string using your keybaord (e.g. COLOMBIA 2 - MESSI 0), the packet sender encodes the string by converting it to HEX, encapsulates the data into an IP datagram (packet), calculates the checksum, and then sends it to the server program. The server program ﻿acknowledges that the encoded stream has been received and ﻿﻿decodes the stream by verifieng the checksum, then prints it on the terminal. 
+
 
