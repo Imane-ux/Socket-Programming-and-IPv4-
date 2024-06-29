@@ -9,6 +9,7 @@ Adam Alhaje: 300130500
 ### Description:
 
 In order to run this code, you need to:
+   
     1. Start the server program "PacketReceiver.java". If you're using Visual Studio Code (VSCode):
                         Right-click on PacketReceiver.java.
                         Select "Run Java" from the context menu.
